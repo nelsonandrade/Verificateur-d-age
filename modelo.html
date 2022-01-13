@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vérificateur d'age</title>
+    <link rel="stylesheet" href="estilo.css">
+
+</head>
+<body>
+    <header>
+        <h1>Vérificateur d'age</h1>
+    
+    </header>
+    
+    <section>
+        <div>
+            <p>Année de Naissance:</p>
+            <input type="number" name="txtano" id="txtano" min="0"> <!--ano=année-->
+             <p>Sexe:
+             <input type="radio" name="radsex" id="masc" checked>
+             <label for="masc">Homme</label>
+             <input type="radio" name="radsex" id="fem">
+             <label for="fem">Femme</label>
+              </p> 
+              <p>
+                  <input type="button" value="Vérifier" onclick= "verificar()">
+              </p> 
+ 
+        </div>
+        <div id="res">
+            Remplir le formulaire!
+            
+        </div>
+       
+    </section>
+    <footer>
+        <p> &copy; Nelson Andrade <br>
+        2021</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
